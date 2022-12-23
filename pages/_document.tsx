@@ -12,7 +12,7 @@ export default function Document() {
         <link rel="icon" href="../public/images/favicon.ico" />
       </Head>
 
-      <body>
+      <body className="bg-zinc-700 text-gray-200">
         <Main />
         <NextScript />
       </body>

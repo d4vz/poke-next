@@ -10,13 +10,8 @@ interface LayoutProps {
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
-      <Head>
-        <title>PokeNext</title>
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
-
       <Navbar />
-      <div>{children}</div>
+      <div className="h-screen">{children}</div>
       <Footer />
     </>
   );

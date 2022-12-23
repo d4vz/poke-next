@@ -5,3 +5,13 @@ const index = () => {
 };
 
 export default index;
+
+export async function getStaticProps() {
+
+  
+
+  return {
+    props: {},
+  };
+}
+
