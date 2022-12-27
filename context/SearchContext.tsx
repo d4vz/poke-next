@@ -7,7 +7,7 @@ interface IContext {
   setInputValue: React.Dispatch<React.SetStateAction<string>>;
 }
 
-export const SearchContextProvider: React.FC = ({ children }: any) => {
+export const SearchContextProvider = ({ children }: any) => {
   const [inputValue, setInputValue] = React.useState('');
 
   return (

@@ -18,9 +18,11 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <SearchContextProvider>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <div>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
     </SearchContextProvider>
   );
 }
