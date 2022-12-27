@@ -2,6 +2,17 @@ export interface iPokemonList {
   name: string;
   url: string;
   image: string;
+  types: Type[];
+}
+
+interface Type {
+  slot: number;
+  type: Type2;
+}
+
+interface Type2 {
+  name: string;
+  url: string;
 }
 
 interface Form {
@@ -32,4 +43,5 @@ export interface IPokemon {
   past_types: any[];
   sprites: Sprites;
   weight: number;
+  types: Type[];
 }
